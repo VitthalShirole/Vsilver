@@ -4,4 +4,4 @@ COPY package.json /newapp2
 RUN npm install
 COPY  . /newapp2
 CMD node server.js
-EXPOSE 3001
+EXPOSE 3000
